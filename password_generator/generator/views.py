@@ -25,6 +25,11 @@ def password(request):
     return render(request, 'generator/password.html', {'password' : password })
 # Create your views here.
 
+def test(request):
+    return render(request, 'generator/test.html')
 
+
+'''
 def test(request):
     return HttpResponse('test - page')
+'''
